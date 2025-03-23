@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap project</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<style>
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+</style>
+<!---NAVBAR-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">Explore Malta</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Tourguide.html">Tour guides</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!--Hero-->
+<div class="center">
+    <img class="img-fluid"src="malta images/building on beach.jpg">
+
+</div>
+
+  <!--WELCOME-->
+<div class="text-center">
+<h1 >Welcome to my trip guide for Malta</h1>
+
+<br>
+
+<h3> Must see beaches!!</h3>
+<br>
+
+</div>
+
+<!--CARDS GRID-->
+<div class="container">
+
+    <div class="row" >
+      <div class="col-sm-5">
+        <div class="card">
+            <img src="malta images/Ramla-Gozo.webp" class="card-img-top" alt="ramla beach">
+            <div class="card-body">
+              <h5 class="card-title">Ramla beach</h5>
+              <p class="card-text">Red colored sand in Gozo, Malta</p>
+              <a href="https://en.wikipedia.org/wiki/Ramla_Bay" class="btn btn-primary">For more info..</a>
+         </div>
+          </div>
+        </div>
+
+
+          <div class="col-sm-5">
+            <div class="card">
+                <img src="malta images/beach pic.avif" class="card-img-top" alt="St peters beach">
+                <div class="card-body">
+                  <h5 class="card-title">Golden beach</h5>
+                  <p class="card-text">White sand beach in Melliena, Malta </p>
+                  <a href="https://en.wikipedia.org/wiki/Golden_Bay_(Malta)" class="btn btn-primary">For more info..</a>
+    
+                </div>
+              </div>
+            </div>
+    
+
+      <div class="col-sm-5">
+        <div class="card">
+            <img src="malta images/stpeterspool.webp" class="card-img-top" alt="St peters beach">
+            <div class="card-body">
+              <h5 class="card-title">St. Peter's pool</h5>
+              <p class="card-text">Swimming beach in Dellimara, Malta </p>
+              <a href="https://en.wikipedia.org/wiki/St_Peter's_Pool,_Malta" class="btn btn-primary">For more info..</a>
+          </div>
+      </div>
+    </div>
+    </div>
+
+  <!--PICTURE DIV-->
+
+
+  <div class="container mt-5 mb5 pt-10 pb-10 text-center">
+
+    <div class="row">
+
+        <div style="margin: 25px;"> 
+            <h3>Explore more in Malta! </h3>
+          </div>
+
+      <div class="col-sm"> 
+        <img class src="malta images/valleta.jpg" alt="valleta">
+        Valleta
+      </div>
+
+      <div class="col-sm">
+        <img class="img-fluid"  src="malta images/dingli cliffs.jpg" alt="dingli cliffs">
+        Dingli Cliff
+
+      </div>
+
+      <div class="col-sm">
+        <img class src="malta images/mdina.jpg" alt="mdnina">
+        Mdina (silent city)
+      </div>
+
+      <div class="col-sm">
+        <img src="malta images/hagarqim.jpg" alt="Hagerqim" >
+        Hagar qim 
+      </div>
+
+      <div class="col-sm">
+        <img src="malta images/Marsaxlokk.jpg" alt="Marsaxlokk">
+        Marsaxlokk 
+      </div>
+
+      <div class="col-sm">
+        <img src="malta images/Xlendi coast.jpg" alt="xlendi">
+        Xlendi Coast
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--FOOTER-->
+<footer>
+<div class="text-center pt-5 pb-5">
+<h6>
+
+Malta trip guide copyrighted 2025
+
+</h6>
+</div>
+</footer>
+
+
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+    
+</body>
+</html>

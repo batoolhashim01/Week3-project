@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to get there</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--NAVBAR-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+    
+          <a class="navbar-brand" href="index.html">Explore Malta</a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tourguide.html">Tour guides</a>
+              </li>
+            </ul>
+    
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+    
+        </div>
+  </nav>
+
+
+  <!--TABLE-->
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col"> Agency name</th>
+        <th scope="col">Phone number</th>
+        <th scope="col">Address</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Colour my Travel</td>
+        <td>+356 7777 3050</td>
+        <td>Gate, Il-Belt Valletta, Malta</td>
+      </tr>
+      <tr>
+        <td>Britannia Tours</td>
+        <td>+356 2123 8039</td>
+        <td>Triq San Gwann, Il-Belt Valletta, Malta
+        </td>
+      </tr>
+      <tr>
+        <td>Soleto Travel</td>
+        <td>+356 7936 1435</td>
+        <td>San Ġwann SGN 2310, Malta</td>
+      </tr>
+      <tr>
+        <td>Malta themed tours</td>
+        <td>+356 7705 8201</td>
+        <td>Auberge, Valletta VLT 1170, Malta</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+<!---FORM-->
+<h3 class="text-center mb-4">Complete this form below and we will match you with the right agency based on our availability!</h3>
+    <form class="row g-3 mb-5 ms-3 me-3 p-4">
+        
+            <div class="col-md-6">
+            <label for="Firstname" class="form-label">First name</label>
+            <input type="text" class="form-control" aria-label="First name" id="Firstname">
+            </div>
+            <div class="col-md-6">
+            <label for="Lastname" class="form-label">Last name</label>
+            <input type="text" class="form-control" aria-label="Last name" id="Lastname">
+            </div>
+        
+        
+            <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Johnsmith@gmail.com">
+            </div>
+        
+            <div class="col-12">
+            <label for="phonenumber" class="form-label">Phone number</label>
+            <input type="text" class="form-control" id="phonenumber" placeholder="+1 123-456-7891">
+            </div>
+
+            <div class="col-12">
+            <label for="inputdate" class="form-label">Dates for trip</label>
+            <input type="text" class="form-control" id="inputdate" placeholder=" 01MAR-08MAR">
+            </div>
+
+            <div class="col-md-12">
+            <label for="number" class="form-label">Emergency phone number</label>
+            <input type="text" class="form-control" id="inputnumber" placeholder="+1 123-456-7891">
+            </div>
+
+            <div class="col-md-12">
+            <label for="inputtext" class="form-label">Things you would like to explore..</label>
+            <input id="inputtext" class="form-control">
+            </div>
+
+            <div class="col-md-12">
+            <label for="inputtext" class="form-label">Languages you speak</label>
+            <input type="text" class="form-control" id="inputtext">
+            </div>
+
+
+            </div>
+            <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+      </form>
+
+
+
+
+
+
+
+
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+</body>
+</html>

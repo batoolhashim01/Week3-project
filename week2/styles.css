@@ -1,0 +1,123 @@
+body {
+    background-color:#eeeeee ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*...elements...*/
+
+h1{
+    text-decoration: underline;
+}
+h4, h3{
+    font-style: italic;
+    background-color: #da9090;
+    width: max-content;
+    padding: 5px;
+}
+
+/*...nav...*/
+
+.navbar{
+    background-color: rgb(104, 104, 175);
+    padding: 0.25em;
+
+}
+.navbar ul{
+
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    
+}
+.navbar a {
+    color:white ;
+    text-decoration: none;
+    margin-right: 7px;
+    font-size: 24px;
+    box-shadow: 2px 1px rgb(239, 234, 234);
+
+}
+
+.navbar a:hover{
+
+ color: aqua;   
+}
+.navbar a:active {
+
+   background-color: rgb(9, 103, 9);
+   border-radius: 5%;
+   
+}
+
+/*...image list....*/
+
+#favoritethings{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+#favoritethings li{
+
+    text-align: center;
+    list-style-type: none;
+
+}
+
+table{
+
+    background-color: #3c7390 ;
+    border:3px dotted black;
+}
+table caption{
+
+    font-size: 30px;
+    font-weight: 600;
+    border: 3px solid #db7917;
+    background-color:#3c7390 ;
+}
+
+thead {
+
+    background-color: rgb(12, 238, 238);
+    color:black;
+    font-size: 24px;
+}
+th, tr{
+
+text-indent: 20px;  
+}
+
+/*...FORM PAGE...*/
+
+form{
+
+    display: flex;
+    flex-direction: column;
+   max-width: 30%;
+   background-color: rgb(39,39, 111);
+   padding: 10px;
+
+}
+ form label{
+
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+
+
+ }
+form input{
+
+margin-bottom: 16px;
+
+}
+
+form button{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 900;
+
+
+}
